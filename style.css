@@ -91,6 +91,10 @@ nav a:hover{
   transform:translateY(-3px);
 }
 
+.primary-btn{
+  box-shadow:0 0 25px rgba(124,92,255,0.4);
+}
+
 .secondary-btn{
   background:transparent;
   border:1px solid #7C5CFF;
@@ -138,6 +142,24 @@ nav a:hover{
 
 .card:hover{
   transform:translateY(-8px);
+}
+
+.card{
+  animation:fadeUp 1s ease;
+}
+
+@keyframes fadeUp{
+
+  from{
+    opacity:0;
+    transform:translateY(40px);
+  }
+
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+
 }
 
 .card h3{
